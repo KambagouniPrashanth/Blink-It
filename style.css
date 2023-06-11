@@ -152,7 +152,7 @@
     padding: 10px 20px;
 }
 .section1 img {
-    width: 98%;
+    width: 102%;
     margin-top: 108px;
     
 }
@@ -183,7 +183,7 @@
     width: 90%;
     display: grid;
     grid-template-columns: repeat(10,107px);
-    gap: 4px;
+    gap: 10px;
     max-width: 1200px;
     margin: 0px 15px;
     /* overflow-x: auto;
@@ -249,27 +249,26 @@
     border: 0.5px solid rgb(232, 232, 232);
     box-shadow: rgb(0 0 0 / 4%) 2px 2px 8px;
 }
-.wrapper .food-item img{
-    width: 167px;
-    height: 117px;
-    
 
+.wrapper .food-item img{
+    width: 225px;
+    height: 170px;
 }
 .wrapper .item-time{
-    font-size: 8px;
+    font-size: 11px;
     margin-top: 2px;
     margin-bottom: 8px;
     color: grey;
     padding:2px;
 }
 .wrapper .item-name{
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 300;
     padding: 5px 2px;
     margin-bottom: 3px;
 }
 .wrapper .item-quantity{
-    font-size: 12px;
+    font-size: 15px;
     color: lightgrey;
     padding: 2px 2px;
     
@@ -290,7 +289,7 @@
 }
 
 .price{
-    font-size: 10px;
+    font-size: 15px;
     padding: 2px 2px;
   
     
@@ -307,6 +306,10 @@
     border-color: var(--color-green-1);
 
 } 
+.food-heading {
+    
+    font-size: 20px;
+}
 
 
 .footer{
